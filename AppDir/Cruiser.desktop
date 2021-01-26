@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Cruiser
+Comment=A map and navigation platform for Android and Desktop
+Exec=AppRun
+Icon=cruiser
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Categories=Utility;Science;
+StartupWMClass=Cruiser
+StartupNotify=true
+
+
