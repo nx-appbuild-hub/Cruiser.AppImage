@@ -1,2 +1,1 @@
-# Snowflake.AppImage
 # Cruiser.AppImage
