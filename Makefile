@@ -39,7 +39,7 @@ all: clean
 	echo "export LD_LIBRARY_PATH=\$${LD_LIBRARY_PATH}" >> $(PWD)/build/Boilerplate.AppDir/AppRun
 	echo '' >> $(PWD)/build/Boilerplate.AppDir/AppRun
 	echo '' >> $(PWD)/build/Boilerplate.AppDir/AppRun
-	echo 'exec $${APPDIR}/jre/bin/java -Xmx1024M -jar $${APPDIR}/cruiser/cruiser-gl.jar "$${@}"' >> $(PWD)/build/Boilerplate.AppDir/AppRun
+	echo 'exec $${APPDIR}/jre/bin/java -Xmx1024M -jar $${APPDIR}/cruiser/cruiser.jar "$${@}"' >> $(PWD)/build/Boilerplate.AppDir/AppRun
 
 	chmod +x $(PWD)/build/Boilerplate.AppDir/AppRun
 
