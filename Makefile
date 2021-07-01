@@ -19,7 +19,7 @@ all: clean
 	mkdir --parents $(PWD)/build/Boilerplate.AppDir/cruiser
 	apprepo --destination=$(PWD)/build appdir boilerplate 
 
-	wget --output-document=$(PWD)/build/build.zip https://www.talent.gr/public/cruiser/cruiser-desktop-1.11.zip
+	wget --output-document=$(PWD)/build/build.zip https://talent.gr/public/cruiser/cruiser-desktop-2.0.1.zip
 	unzip $(PWD)/build/build.zip -d $(PWD)/build
 
 	wget --no-check-certificate --output-document=$(PWD)/build/build.rpm --continue https://forensics.cert.org/centos/cert/8/x86_64/jdk-12.0.2_linux-x64_bin.rpm
